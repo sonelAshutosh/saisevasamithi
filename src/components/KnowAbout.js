@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/KnowAbout.module.css'
+import Link from 'next/link'
 
 function KnowAbout() {
   return (
@@ -16,7 +17,7 @@ function KnowAbout() {
             basic necessities and the opportunity to lead a healthy, dignified
             life.
           </p>
-          <a href="/">Read More</a>
+          <Link href="/">Read More</Link>
         </div>
 
         <div className={styles['our-mission-vision']}>
@@ -27,7 +28,7 @@ function KnowAbout() {
             Samithi envisions a society where compassion, empathy, and equality
             prevail, and where no one is marginalized or left behind.
           </p>
-          <a href="/">Read More</a>
+          <Link href="/">Read More</Link>
         </div>
       </div>
       <div className={styles['right']}>
