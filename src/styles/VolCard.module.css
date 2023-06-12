@@ -1,0 +1,23 @@
+.card-container {
+  height: 400px;
+  width: 100%;
+}
+
+.card-image img {
+  height: 400px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card-title {
+  width: 100%;
+  background-color: var(--color-accent-900);
+  color: var(--color-accent-300);
+  position: relative;
+  bottom: 50px;
+  border-radius: 10px;
+}
+
+.card-title h3 {
+  padding: 0.5rem;
+}

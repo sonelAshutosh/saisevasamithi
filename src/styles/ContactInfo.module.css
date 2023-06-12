@@ -1,0 +1,49 @@
+.contact-info {
+  color: var(--color-accent-600);
+  margin: 2rem 0;
+  transform: skewX(25deg);
+}
+
+.contact-info h3 {
+  margin: 1rem;
+}
+
+.address,
+.mobile,
+.email {
+  display: flex;
+  padding: 0.25rem;
+  place-items: center;
+}
+
+.social-media {
+  display: flex;
+}
+
+.contact-info svg {
+  padding-inline: 0.5rem;
+}
+
+.social-media svg {
+  padding: 0.5rem;
+}
+
+.address:hover > p,
+.mobile:hover > p,
+.email:hover > p {
+  color: var(--color-accent-900);
+}
+.address:hover > p > *,
+.mobile:hover > p > *,
+.email:hover > p > * {
+  color: var(--color-accent-900);
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-info {
+    transform: skewX(0);
+  }
+  .social-media {
+    place-content: center;
+  }
+}

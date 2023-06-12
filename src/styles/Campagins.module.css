@@ -1,0 +1,17 @@
+.campagins-container {
+  height: 90vh;
+  padding: 0 15%;
+  margin: 1rem;
+}
+
+.image {
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .campagins-container {
+    height: 50vh;
+    padding: 0;
+    margin: 1rem;
+  }
+}

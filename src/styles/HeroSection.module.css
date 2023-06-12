@@ -1,0 +1,46 @@
+.container {
+  color: var(--color-accent-600);
+  position: relative;
+}
+
+.details {
+  bottom: 5rem;
+  padding: 0 5%;
+  position: absolute;
+  margin-right: 25%;
+  z-index: 1;
+}
+
+.details-heading {
+  font-size: 4rem;
+}
+
+.details-description {
+  font-size: 1.15rem;
+  line-height: 1.75;
+}
+
+.banner-image img {
+  width: 100%;
+  aspect-ratio: 21/9;
+  background-size: cover;
+  filter: brightness(0.3);
+}
+
+@media only screen and (max-width: 768px) {
+  .details {
+    margin-right: 15%;
+  }
+  .details-heading {
+    font-size: 2.5rem;
+  }
+  .details-description {
+    font-size: 1.25rem;
+    line-height: 1.75;
+  }
+  .banner-image img {
+    width: 100%;
+    aspect-ratio: 9/15;
+    filter: brightness(0.3);
+  }
+}

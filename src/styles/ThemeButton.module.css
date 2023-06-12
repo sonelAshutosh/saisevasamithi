@@ -1,0 +1,27 @@
+.theme-icons {
+  border-radius: 50%;
+  height: 20px;
+  margin: 0.25rem;
+  width: 20px;
+  border: none;
+}
+
+#purple {
+  background-color: purple;
+}
+#red {
+  background-color: red;
+}
+#green {
+  background-color: green;
+}
+#blue {
+  background-color: blue;
+}
+#orange {
+  background-color: orange;
+}
+
+.active-theme {
+  border: 2px solid black;
+}

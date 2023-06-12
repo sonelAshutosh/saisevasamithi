@@ -1,0 +1,9 @@
+.about-us-container {
+  padding: 0 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-us-container {
+    padding: 0 7%;
+  }
+}

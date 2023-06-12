@@ -1,0 +1,117 @@
+.details-support,
+.details-support-card {
+  color: var(--color-accent-600);
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  padding: 0 5%;
+}
+
+.details-support-title {
+  font-size: 2rem;
+  padding: 1.5rem;
+  padding-bottom: 3rem;
+  position: relative;
+  display: flex;
+  place-items: center;
+}
+
+.details-support-title::before,
+.details-support-title::after {
+  content: '';
+  background-color: var(--color-accent-600);
+  height: 4px;
+  width: 100%;
+  position: absolute;
+}
+
+.details-support-title::before {
+  left: -400px;
+}
+
+.details-support-title::after {
+  right: -400px;
+}
+
+.details-support-body {
+  width: 100%;
+  display: flex;
+  gap: 5rem;
+}
+
+.details-support-card {
+  width: 33%;
+  border-radius: 10px;
+  box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 0 3rem 4rem;
+  transition: transform 0.5s ease-in-out;
+}
+
+.details-support-card:hover {
+  transform: scale(1.05);
+}
+
+.details-support-card-icon {
+  background-color: var(--color-base);
+  border-radius: 50%;
+  box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.2);
+  color: inherit;
+  padding: 1.5rem;
+  position: relative;
+  bottom: 2.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.details-support-card-title {
+  font-size: 2rem;
+  font-weight: bolder;
+  position: relative;
+  bottom: 1.5rem;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.details-support-card-description {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.details-support-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 5%;
+}
+
+.details-support-card:hover > *,
+.details-support-card:hover > .details-support-card-icon > svg {
+  color: var(--color-accent-900);
+}
+
+@media only screen and (max-width: 768px) {
+  .details-support-body {
+    width: 100%;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .details-support-card {
+    width: inherit;
+    padding: 0;
+  }
+  .details-support-card-title {
+    padding-inline: 2rem;
+  }
+  .details-support-card-description {
+    padding: 0 2rem 4rem;
+  }
+
+  .details-support-title::before,
+  .details-support-title::after {
+    display: none;
+  }
+
+  .details-support-buttons {
+    flex-direction: column;
+  }
+}
