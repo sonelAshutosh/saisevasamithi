@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Sai Seva Samithi | Home</title>
+        <title>Sai Seva Samiti | Home</title>
       </Head>
 
       <ParallaxProvider>

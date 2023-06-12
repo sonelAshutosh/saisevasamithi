@@ -7,7 +7,7 @@ function HeroSection() {
     <>
       <div className={styles['container']}>
         <div className={styles['details']}>
-          <h1 className={styles['details-heading']}>Sai Seva Samithi</h1>
+          <h1 className={styles['details-heading']}>Sai Seva Samiti</h1>
           <p className={styles['details-description']}>
             Extending a helping hand. We provide food and medicines to those in
             hospitals, ensuring no one goes hungry or lacks vital care.{' '}
